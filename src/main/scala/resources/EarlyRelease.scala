@@ -20,7 +20,7 @@ object EarlyRelease extends IOApp {
   }
 
   lazy val configResource: Resource[IO, Config] = {
-    Resource.liftK(sourceResource.use(Config.fromSource))
+    Resource.liftF(sourceResource.use(Config.fromSource))
   }
 
   lazy val sourceResource: Resource[IO, Source] =
