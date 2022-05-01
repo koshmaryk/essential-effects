@@ -1,4 +1,4 @@
-package coordination
+/*package coordination
 
 import cats.effect._
 import cats.effect.concurrent._
@@ -30,4 +30,4 @@ object CountdownLatch {
   sealed trait State
   case class Outstanding(n: Long, whenDone: Deferred[IO, Unit]) extends State
   case class Done() extends State
-}
+}*/

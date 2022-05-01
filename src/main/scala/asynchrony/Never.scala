@@ -1,4 +1,4 @@
-package asynchrony
+/*package asynchrony
 
 import cats.effect._
 import helper.debug._
@@ -11,4 +11,4 @@ object Never extends IOApp {
 
   val never: IO[Nothing] =
     IO.async(_ => ())
-}
+}*/

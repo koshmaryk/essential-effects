@@ -1,3 +1,4 @@
+/*
 package resources
 
 import cats.effect._
@@ -57,3 +58,4 @@ object DbConnection {
       )
     )(_ => IO(s"< closing Connection to $connectURL").debug.void)
 }
+*/

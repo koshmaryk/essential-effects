@@ -1,3 +1,4 @@
+/*
 package asynchrony
 
 import cats.effect._
@@ -29,3 +30,4 @@ object AsyncCompletable extends IOApp {
   def cf(): CompletableFuture[String] =
     CompletableFuture.supplyAsync(() => "woo!")
 }
+*/
